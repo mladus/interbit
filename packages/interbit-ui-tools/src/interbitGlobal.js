@@ -11,6 +11,7 @@ const isConnected = () =>
 
 const kvPrivateKey = 'interbit-keyPair-privateKey'
 const kvPublicKey = 'interbit-keyPair-publicKey'
+const kvHypervisorChainId = 'interbit-hypervisor-chainId'
 
 const createContext = async () => {
   // TODO: Store keys securely for production
@@ -23,6 +24,8 @@ const createContext = async () => {
   let keyPair
   const publicKey = localStorage[kvPublicKey]
   const privateKey = localStorage[kvPrivateKey]
+  const existingId = localStorage[kvHypervisorChainId]
+
   if (publicKey && privateKey) {
     keyPair = { publicKey, privateKey }
   } else {
@@ -33,7 +36,11 @@ const createContext = async () => {
   }
 
   console.log(`${LOG_PREFIX}: Starting interbit hypervisor`)
-  const hypervisor = await interbit.createHypervisor({ keyPair })
+  const hypervisor = await interbit.createHypervisor({ keyPair, existingId })
+
+  if (!existingId) {
+    localStorage[kvHypervisorChainId] = hypervisor.chainId
+  }
 
   console.log(`${LOG_PREFIX}: Creating interbit client`)
   const cli = await interbit.createCli(hypervisor)
