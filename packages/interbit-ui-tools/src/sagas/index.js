@@ -28,7 +28,7 @@ function* rootSaga() {
 }
 
 function* loadInterbitSaga(action) {
-  console.log(`${LOG_PREFIX}: *loadInterbitSaga()`, action)
+  console.log(`${LOG_PREFIX}: *loadInterbitSaga()`)
 
   try {
     const { cli } = yield call(interbitContext)

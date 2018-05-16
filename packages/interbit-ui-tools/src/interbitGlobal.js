@@ -38,6 +38,11 @@ const createContext = async () => {
   console.log(`${LOG_PREFIX}: Starting interbit hypervisor`)
   const hypervisor = await interbit.createHypervisor({ keyPair, existingId })
 
+  console.log(`${LOG_PREFIX}: Hypervisor running:`, {
+    version: interbit.VERSION,
+    chainId: hypervisor.chainId
+  })
+
   if (!existingId) {
     localStorage[kvHypervisorChainId] = hypervisor.chainId
   }
