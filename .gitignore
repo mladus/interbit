@@ -4,6 +4,7 @@
 # dependencies
 node_modules
 dist
+!packages/interbit-e2e/testData/dist
 packages/platform-deploy/platform/covenants
 lerna-debug.log
 npm-debug.log

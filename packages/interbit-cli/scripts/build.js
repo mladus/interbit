@@ -31,6 +31,7 @@ const run = async () => {
     await build(options)
   } catch (e) {
     console.error(`interbit build: ERROR ${e}`)
+    console.error(e.stack)
     process.exit(1)
   }
 }

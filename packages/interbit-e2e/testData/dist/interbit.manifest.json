@@ -1,0 +1,268 @@
+{
+  "peers": [
+    "localhost:5025"
+  ],
+  "apps": {
+    "template": {
+      "appChain": "first",
+      "buildLocation": "../../build",
+      "browserChains": [
+        "first"
+      ]
+    }
+  },
+  "covenants": {
+    "doSomeThings": {
+      "hash": "38c76324ac4b37a1872c3bae643bd8f32b57f25b2275c67a3152cbdae9e262aa",
+      "filename": "covenants/38c76324ac4b37a1872c3bae643bd8f32b57f25b2275c67a3152cbdae9e262aa.tgz"
+    }
+  },
+  "chains": {
+    "first": "d088449f6a9b156a6dddba0143c4d282da3305305d4a80ab3cb76720d266ebe5",
+    "second": "fdbecaf50a86a5bc08578f441936f89d8e638f827b2bf515ac860c4a78c5af94",
+    "interbitRoot": "44ede8aaf327efac36a7bb33b30f4becf71777fe4877393d128ad57157274ccd"
+  },
+  "genesisBlocks": {
+    "first": {
+      "content": {
+        "previousHash": "genesis",
+        "stateHash": "20075cc4f6b7df2093cbd1b8fb78d7a5869df4868ccff545c61986a32e3b96d0",
+        "actions": [],
+        "errors": {},
+        "redispatches": {},
+        "height": 0,
+        "timestamp": 1531159098905,
+        "seed": 0.786944352558939,
+        "configChanged": true,
+        "timeToCreateBlock": 0,
+        "state": {
+          "interbit": {
+            "config": {
+              "consensus": "PoA",
+              "providing": [],
+              "consuming": [],
+              "acl": {
+                "actionPermissions": {
+                  "*": [
+                    "root"
+                  ]
+                },
+                "roles": {
+                  "root": [
+                    "xk0EW0OfkgEB/3DpQaIpjhzKXCrXdghEbraB/LmD5AUHbizHw/XWsycr4cnGb4sO8pTp3p563kox3zBAyumEJYe9KtEgTMtuKnUAEQEAAc0NPGluZm9AYnRs\nLmNvPsJ1BBABCAApBQJbQ5+SBgsJBwgDAgkQ6YTWbJkqoR0EFQgKAgMWAgEC\nGQECGwMCHgEAAD1hAf9oRp601OR8aJqOylWp4OC1kMXGlIqcPgcKAJ5fltI/\n5hio7PbQ/MAQ9l6AwZ9mqNzz5nhS3kbwtpfipA8QJqKezk0EW0OfkgEB/278\nWkOPwVBR+MGJ+ZMkEr6WJ+o11iRo5QbdMLRvpmfW4Yy0UsOjOkO3l7eGE+yU\nR24bUEbW0EETkbvXQmiYBj0AEQEAAcJfBBgBCAATBQJbQ5+SCRDphNZsmSqh\nHQIbDAAA36YB/j4D/VNWvPLWg0HKJHyJLJDuP3KuRMi7rI62h+ugpnDEY6+Z\n4AnOZ1SbxCrye820CDxJBWg4mqIXW2CHzQNkx+U="
+                  ]
+                }
+              },
+              "blockMaster": "xk0EW0OfkgEB/3DpQaIpjhzKXCrXdghEbraB/LmD5AUHbizHw/XWsycr4cnGb4sO8pTp3p563kox3zBAyumEJYe9KtEgTMtuKnUAEQEAAc0NPGluZm9AYnRs\nLmNvPsJ1BBABCAApBQJbQ5+SBgsJBwgDAgkQ6YTWbJkqoR0EFQgKAgMWAgEC\nGQECGwMCHgEAAD1hAf9oRp601OR8aJqOylWp4OC1kMXGlIqcPgcKAJ5fltI/\n5hio7PbQ/MAQ9l6AwZ9mqNzz5nhS3kbwtpfipA8QJqKezk0EW0OfkgEB/278\nWkOPwVBR+MGJ+ZMkEr6WJ+o11iRo5QbdMLRvpmfW4Yy0UsOjOkO3l7eGE+yU\nR24bUEbW0EETkbvXQmiYBj0AEQEAAcJfBBgBCAATBQJbQ5+SCRDphNZsmSqh\nHQIbDAAA36YB/j4D/VNWvPLWg0HKJHyJLJDuP3KuRMi7rI62h+ugpnDEY6+Z\n4AnOZ1SbxCrye820CDxJBWg4mqIXW2CHzQNkx+U="
+            },
+            "configChanges": {}
+          }
+        }
+      },
+      "contentHash": "ca3af5b151556f83b181ef515d7a04e63bb79121a27e91eceaa9912552675368",
+      "signatures": {
+        "GENESIS": "GENESIS"
+      },
+      "signaturesHash": "5802612e380de8f088c9c9ab28412e853d75d86eed65d8415bca52daac7681ce",
+      "blockHash": "d088449f6a9b156a6dddba0143c4d282da3305305d4a80ab3cb76720d266ebe5"
+    },
+    "second": {
+      "content": {
+        "previousHash": "genesis",
+        "stateHash": "20075cc4f6b7df2093cbd1b8fb78d7a5869df4868ccff545c61986a32e3b96d0",
+        "actions": [],
+        "errors": {},
+        "redispatches": {},
+        "height": 0,
+        "timestamp": 1531159098905,
+        "seed": 0.05877338236322793,
+        "configChanged": true,
+        "timeToCreateBlock": 0,
+        "state": {
+          "interbit": {
+            "config": {
+              "consensus": "PoA",
+              "providing": [],
+              "consuming": [],
+              "acl": {
+                "actionPermissions": {
+                  "*": [
+                    "root"
+                  ]
+                },
+                "roles": {
+                  "root": [
+                    "xk0EW0OfkgEB/3DpQaIpjhzKXCrXdghEbraB/LmD5AUHbizHw/XWsycr4cnGb4sO8pTp3p563kox3zBAyumEJYe9KtEgTMtuKnUAEQEAAc0NPGluZm9AYnRs\nLmNvPsJ1BBABCAApBQJbQ5+SBgsJBwgDAgkQ6YTWbJkqoR0EFQgKAgMWAgEC\nGQECGwMCHgEAAD1hAf9oRp601OR8aJqOylWp4OC1kMXGlIqcPgcKAJ5fltI/\n5hio7PbQ/MAQ9l6AwZ9mqNzz5nhS3kbwtpfipA8QJqKezk0EW0OfkgEB/278\nWkOPwVBR+MGJ+ZMkEr6WJ+o11iRo5QbdMLRvpmfW4Yy0UsOjOkO3l7eGE+yU\nR24bUEbW0EETkbvXQmiYBj0AEQEAAcJfBBgBCAATBQJbQ5+SCRDphNZsmSqh\nHQIbDAAA36YB/j4D/VNWvPLWg0HKJHyJLJDuP3KuRMi7rI62h+ugpnDEY6+Z\n4AnOZ1SbxCrye820CDxJBWg4mqIXW2CHzQNkx+U="
+                  ]
+                }
+              },
+              "blockMaster": "xk0EW0OfkgEB/3DpQaIpjhzKXCrXdghEbraB/LmD5AUHbizHw/XWsycr4cnGb4sO8pTp3p563kox3zBAyumEJYe9KtEgTMtuKnUAEQEAAc0NPGluZm9AYnRs\nLmNvPsJ1BBABCAApBQJbQ5+SBgsJBwgDAgkQ6YTWbJkqoR0EFQgKAgMWAgEC\nGQECGwMCHgEAAD1hAf9oRp601OR8aJqOylWp4OC1kMXGlIqcPgcKAJ5fltI/\n5hio7PbQ/MAQ9l6AwZ9mqNzz5nhS3kbwtpfipA8QJqKezk0EW0OfkgEB/278\nWkOPwVBR+MGJ+ZMkEr6WJ+o11iRo5QbdMLRvpmfW4Yy0UsOjOkO3l7eGE+yU\nR24bUEbW0EETkbvXQmiYBj0AEQEAAcJfBBgBCAATBQJbQ5+SCRDphNZsmSqh\nHQIbDAAA36YB/j4D/VNWvPLWg0HKJHyJLJDuP3KuRMi7rI62h+ugpnDEY6+Z\n4AnOZ1SbxCrye820CDxJBWg4mqIXW2CHzQNkx+U="
+            },
+            "configChanges": {}
+          }
+        }
+      },
+      "contentHash": "4edaa00a882a602f4ebf5fadf3d0d24a3564002cd1abb39f96a0d301b3b341f3",
+      "signatures": {
+        "GENESIS": "GENESIS"
+      },
+      "signaturesHash": "5802612e380de8f088c9c9ab28412e853d75d86eed65d8415bca52daac7681ce",
+      "blockHash": "fdbecaf50a86a5bc08578f441936f89d8e638f827b2bf515ac860c4a78c5af94"
+    },
+    "interbitRoot": {
+      "content": {
+        "previousHash": "genesis",
+        "stateHash": "20075cc4f6b7df2093cbd1b8fb78d7a5869df4868ccff545c61986a32e3b96d0",
+        "actions": [],
+        "errors": {},
+        "redispatches": {},
+        "height": 0,
+        "timestamp": 1531159098906,
+        "seed": 0.17217792369397888,
+        "configChanged": true,
+        "timeToCreateBlock": 0,
+        "state": {
+          "interbit": {
+            "config": {
+              "consensus": "PoA",
+              "providing": [],
+              "consuming": [],
+              "acl": {
+                "actionPermissions": {
+                  "*": [
+                    "root"
+                  ]
+                },
+                "roles": {
+                  "root": [
+                    "xk0EW0OfkgEB/3DpQaIpjhzKXCrXdghEbraB/LmD5AUHbizHw/XWsycr4cnGb4sO8pTp3p563kox3zBAyumEJYe9KtEgTMtuKnUAEQEAAc0NPGluZm9AYnRs\nLmNvPsJ1BBABCAApBQJbQ5+SBgsJBwgDAgkQ6YTWbJkqoR0EFQgKAgMWAgEC\nGQECGwMCHgEAAD1hAf9oRp601OR8aJqOylWp4OC1kMXGlIqcPgcKAJ5fltI/\n5hio7PbQ/MAQ9l6AwZ9mqNzz5nhS3kbwtpfipA8QJqKezk0EW0OfkgEB/278\nWkOPwVBR+MGJ+ZMkEr6WJ+o11iRo5QbdMLRvpmfW4Yy0UsOjOkO3l7eGE+yU\nR24bUEbW0EETkbvXQmiYBj0AEQEAAcJfBBgBCAATBQJbQ5+SCRDphNZsmSqh\nHQIbDAAA36YB/j4D/VNWvPLWg0HKJHyJLJDuP3KuRMi7rI62h+ugpnDEY6+Z\n4AnOZ1SbxCrye820CDxJBWg4mqIXW2CHzQNkx+U="
+                  ]
+                }
+              },
+              "blockMaster": "xk0EW0OfkgEB/3DpQaIpjhzKXCrXdghEbraB/LmD5AUHbizHw/XWsycr4cnGb4sO8pTp3p563kox3zBAyumEJYe9KtEgTMtuKnUAEQEAAc0NPGluZm9AYnRs\nLmNvPsJ1BBABCAApBQJbQ5+SBgsJBwgDAgkQ6YTWbJkqoR0EFQgKAgMWAgEC\nGQECGwMCHgEAAD1hAf9oRp601OR8aJqOylWp4OC1kMXGlIqcPgcKAJ5fltI/\n5hio7PbQ/MAQ9l6AwZ9mqNzz5nhS3kbwtpfipA8QJqKezk0EW0OfkgEB/278\nWkOPwVBR+MGJ+ZMkEr6WJ+o11iRo5QbdMLRvpmfW4Yy0UsOjOkO3l7eGE+yU\nR24bUEbW0EETkbvXQmiYBj0AEQEAAcJfBBgBCAATBQJbQ5+SCRDphNZsmSqh\nHQIbDAAA36YB/j4D/VNWvPLWg0HKJHyJLJDuP3KuRMi7rI62h+ugpnDEY6+Z\n4AnOZ1SbxCrye820CDxJBWg4mqIXW2CHzQNkx+U="
+            },
+            "configChanges": {}
+          }
+        }
+      },
+      "contentHash": "470e559ad3626874bd3b12a98a481e8a6c04bd8439a0d018e67b371a30b87594",
+      "signatures": {
+        "GENESIS": "GENESIS"
+      },
+      "signaturesHash": "5802612e380de8f088c9c9ab28412e853d75d86eed65d8415bca52daac7681ce",
+      "blockHash": "44ede8aaf327efac36a7bb33b30f4becf71777fe4877393d128ad57157274ccd"
+    }
+  },
+  "manifest": {
+    "interbitRoot": {
+      "chainId": "44ede8aaf327efac36a7bb33b30f4becf71777fe4877393d128ad57157274ccd",
+      "validators": [
+        "xk0EW0OfkgEB/3DpQaIpjhzKXCrXdghEbraB/LmD5AUHbizHw/XWsycr4cnGb4sO8pTp3p563kox3zBAyumEJYe9KtEgTMtuKnUAEQEAAc0NPGluZm9AYnRs\nLmNvPsJ1BBABCAApBQJbQ5+SBgsJBwgDAgkQ6YTWbJkqoR0EFQgKAgMWAgEC\nGQECGwMCHgEAAD1hAf9oRp601OR8aJqOylWp4OC1kMXGlIqcPgcKAJ5fltI/\n5hio7PbQ/MAQ9l6AwZ9mqNzz5nhS3kbwtpfipA8QJqKezk0EW0OfkgEB/278\nWkOPwVBR+MGJ+ZMkEr6WJ+o11iRo5QbdMLRvpmfW4Yy0UsOjOkO3l7eGE+yU\nR24bUEbW0EETkbvXQmiYBj0AEQEAAcJfBBgBCAATBQJbQ5+SCRDphNZsmSqh\nHQIbDAAA36YB/j4D/VNWvPLWg0HKJHyJLJDuP3KuRMi7rI62h+ugpnDEY6+Z\n4AnOZ1SbxCrye820CDxJBWg4mqIXW2CHzQNkx+U="
+      ],
+      "covenant": "interbitRoot",
+      "covenants": {
+        "interbitRoot": "interbitRoot",
+        "second": "doSomeThings"
+      },
+      "joins": {
+        "consume": [],
+        "provide": [],
+        "receiveActionFrom": [],
+        "sendActionTo": [
+          {
+            "alias": "first"
+          },
+          {
+            "alias": "second"
+          }
+        ]
+      },
+      "chains": {
+        "first": {
+          "chainId": "d088449f6a9b156a6dddba0143c4d282da3305305d4a80ab3cb76720d266ebe5",
+          "validators": [
+            "xk0EW0OfkgEB/3DpQaIpjhzKXCrXdghEbraB/LmD5AUHbizHw/XWsycr4cnGb4sO8pTp3p563kox3zBAyumEJYe9KtEgTMtuKnUAEQEAAc0NPGluZm9AYnRs\nLmNvPsJ1BBABCAApBQJbQ5+SBgsJBwgDAgkQ6YTWbJkqoR0EFQgKAgMWAgEC\nGQECGwMCHgEAAD1hAf9oRp601OR8aJqOylWp4OC1kMXGlIqcPgcKAJ5fltI/\n5hio7PbQ/MAQ9l6AwZ9mqNzz5nhS3kbwtpfipA8QJqKezk0EW0OfkgEB/278\nWkOPwVBR+MGJ+ZMkEr6WJ+o11iRo5QbdMLRvpmfW4Yy0UsOjOkO3l7eGE+yU\nR24bUEbW0EETkbvXQmiYBj0AEQEAAcJfBBgBCAATBQJbQ5+SCRDphNZsmSqh\nHQIbDAAA36YB/j4D/VNWvPLWg0HKJHyJLJDuP3KuRMi7rI62h+ugpnDEY6+Z\n4AnOZ1SbxCrye820CDxJBWg4mqIXW2CHzQNkx+U="
+          ],
+          "covenant": "doSomeThings",
+          "covenants": {
+            "first": "doSomeThings"
+          },
+          "joins": {
+            "consume": [
+              {
+                "alias": "second",
+                "path": [
+                  "interbitServices"
+                ],
+                "joinName": "INTERBIT_SERVICES"
+              },
+              {
+                "alias": "second",
+                "path": [
+                  "privateChainHosting"
+                ],
+                "joinName": "HOSTING_SPONSOR"
+              }
+            ],
+            "provide": [],
+            "receiveActionFrom": [
+              {
+                "alias": "interbitRoot",
+                "authorizedActions": [
+                  "@@MANIFEST/SET_MANIFEST"
+                ]
+              }
+            ],
+            "sendActionTo": []
+          },
+          "chains": {},
+          "hash": "3760d80555c89cf57ea9a1cc34c9b793d5097810"
+        },
+        "second": {
+          "chainId": "fdbecaf50a86a5bc08578f441936f89d8e638f827b2bf515ac860c4a78c5af94",
+          "validators": [
+            "xk0EW0OfkgEB/3DpQaIpjhzKXCrXdghEbraB/LmD5AUHbizHw/XWsycr4cnGb4sO8pTp3p563kox3zBAyumEJYe9KtEgTMtuKnUAEQEAAc0NPGluZm9AYnRs\nLmNvPsJ1BBABCAApBQJbQ5+SBgsJBwgDAgkQ6YTWbJkqoR0EFQgKAgMWAgEC\nGQECGwMCHgEAAD1hAf9oRp601OR8aJqOylWp4OC1kMXGlIqcPgcKAJ5fltI/\n5hio7PbQ/MAQ9l6AwZ9mqNzz5nhS3kbwtpfipA8QJqKezk0EW0OfkgEB/278\nWkOPwVBR+MGJ+ZMkEr6WJ+o11iRo5QbdMLRvpmfW4Yy0UsOjOkO3l7eGE+yU\nR24bUEbW0EETkbvXQmiYBj0AEQEAAcJfBBgBCAATBQJbQ5+SCRDphNZsmSqh\nHQIbDAAA36YB/j4D/VNWvPLWg0HKJHyJLJDuP3KuRMi7rI62h+ugpnDEY6+Z\n4AnOZ1SbxCrye820CDxJBWg4mqIXW2CHzQNkx+U="
+          ],
+          "covenant": "doSomeThings",
+          "covenants": {
+            "second": "doSomeThings"
+          },
+          "joins": {
+            "provide": [
+              {
+                "alias": "first",
+                "path": [
+                  "interbitServices",
+                  "shared"
+                ],
+                "joinName": "INTERBIT_SERVICES"
+              },
+              {
+                "alias": "first",
+                "path": [
+                  "privateChainHosting",
+                  "shared"
+                ],
+                "joinName": "HOSTING_SPONSOR"
+              }
+            ],
+            "consume": [],
+            "receiveActionFrom": [
+              {
+                "alias": "interbitRoot",
+                "authorizedActions": [
+                  "@@MANIFEST/SET_MANIFEST"
+                ]
+              }
+            ],
+            "sendActionTo": []
+          },
+          "chains": {},
+          "hash": "03d2023d665ea71289bae0f9a4f3c78692740f17"
+        }
+      },
+      "hash": "0b61423181bd41106399e2e976b86f6b14064c78"
+    }
+  },
+  "hash": "a24cc70dbe97ed89d03e49e6342505802d45793f"
+}

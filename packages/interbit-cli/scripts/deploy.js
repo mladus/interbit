@@ -7,15 +7,15 @@ const {
   getKeyPair,
   getManifest,
   getPort,
-  deploy,
-  manifestSelectors: { getChains }
+  deploy
+  // manifestSelectors: { getChains }
 } = require('interbit')
 
 const deployWithCliOptions = async () => {
   const options = getOptions()
 
   console.log(options.location, options.manifest)
-  console.log('MANIFEST CHAIN IDs', getChains(options.manifest))
+  // console.log('MANIFEST CHAIN IDs', getChains(options.manifest))
 
   if (!options.keyPair) {
     console.warn(

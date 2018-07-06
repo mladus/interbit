@@ -9,7 +9,7 @@ const {
   metaCapabilities
 } = require('../helpers/browserStackCapabilities')
 
-describe('MTTF Helper function unit tests', () => {
+describe.skip('MTTF Helper function unit tests', () => {
   describe('startTimer', () => {
     it.skip('doesnt throw on startTimer', () => {
       const func = startTimer(Date.now())
