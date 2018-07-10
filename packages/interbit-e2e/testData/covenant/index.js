@@ -18,15 +18,12 @@ const actionCreators = {
   })
 }
 
-const reducer = (state, action) => {
+const reducer = (state = initialState, action) => {
   const nextState = rootCovenant.reducer(state, action)
   const { appState } = action.payload
 
   if (action.type === actionTypes.APP_STATE) {
-    return {
-      ...nextState,
-      appState
-    }
+    return nextState.set('appState', appState)
   }
 
   return nextState
