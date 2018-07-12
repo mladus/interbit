@@ -15,6 +15,10 @@
     "doSomeThings": {
       "hash": "38c76324ac4b37a1872c3bae643bd8f32b57f25b2275c67a3152cbdae9e262aa",
       "filename": "covenants/38c76324ac4b37a1872c3bae643bd8f32b57f25b2275c67a3152cbdae9e262aa.tgz"
+    },
+    "interbitRoot": {
+      "hash": "d17997bd659553006c51452717671955a8ad299471f4a8d90341b430e2df9383",
+      "filename": "covenants/d17997bd659553006c51452717671955a8ad299471f4a8d90341b430e2df9383.tgz"
     }
   },
   "chains": {
