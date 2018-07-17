@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
+    "cross-spawn": "5.1.0",
     "fs-extra": "^6.0.1",
     "interbit-cli": "0.4.31",
     "interbit": "0.4.31",

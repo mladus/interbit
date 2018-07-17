@@ -1,5 +1,5 @@
 const promisify = require('util').promisify
-const { spawn } = require('child_process')
+const spawn = require('cross-spawn')
 const exec = promisify(require('child_process').exec)
 const fs = require('fs-extra')
 const which = require('which')
