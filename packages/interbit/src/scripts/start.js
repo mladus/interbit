@@ -56,6 +56,8 @@ const start = async options => {
   // TODO: Watch the chains for manifest changes #267
   // Blocked by #258 #336
   // watchChain(cli, chainInterface)
+
+  return { cli, chainManifest }
 }
 
 module.exports = start

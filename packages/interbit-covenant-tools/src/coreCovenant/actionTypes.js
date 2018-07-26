@@ -1,5 +1,7 @@
 const DEPLOY_COVENANT = '@@interbit/DEPLOY_COVENANT'
+const REMOVE_JOIN_CONFIG = '@@interbit/REMOVE_JOIN_CONFIG'
 
 module.exports = {
-  DEPLOY_COVENANT
+  DEPLOY_COVENANT,
+  REMOVE_JOIN_CONFIG
 }

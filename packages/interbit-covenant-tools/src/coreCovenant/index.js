@@ -20,12 +20,12 @@ const {
   destroy
 } = require('interbit-covenant-utils')
 
-const { DEPLOY_COVENANT } = require('./actionTypes')
-const { applyCovenant } = require('./actionCreators')
+const { DEPLOY_COVENANT, REMOVE_JOIN_CONFIG } = require('./actionTypes')
+const { applyCovenant, removeJoinConfig } = require('./actionCreators')
 const selectors = require('./selectors')
 
 module.exports = {
-  actionTypes: { ...actionTypes, DEPLOY_COVENANT },
+  actionTypes: { ...actionTypes, DEPLOY_COVENANT, REMOVE_JOIN_CONFIG },
   actionCreators: {
     authorizeReceiveActions,
     authorizeSendActions,
@@ -37,7 +37,8 @@ module.exports = {
     sponsorChainRequest,
     sponsorChain,
     destroy,
-    applyCovenant
+    applyCovenant,
+    removeJoinConfig
   },
   constants,
   redispatch,

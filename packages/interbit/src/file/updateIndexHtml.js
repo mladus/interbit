@@ -9,11 +9,12 @@ const {
 const updateIndexHtmls = ({ config, chains }) => {
   console.log({ config, chains })
   const apps = getApps(config)
-  const appsList = Object.entries(apps)
-
-  appsList.forEach(([appName, appConfig]) => {
-    updateIndexHtml({ appConfig, chains })
-  })
+  if (apps) {
+    const appsList = Object.entries(apps)
+    for (const [, appConfig] of appsList) {
+      updateIndexHtml({ appConfig, chains })
+    }
+  }
 }
 
 const updateIndexHtml = ({ appConfig, chains }) => {
